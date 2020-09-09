@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
                     default='../data/2018LA_Seg_Training Set', help='Name of Experiment')
 parser.add_argument('--model', type=str,
-                    default='LA/semi_seg_DP_without_EM_16labels', help='model_name')
+                    default='DTC_16labels', help='model_name')
 parser.add_argument('--gpu', type=str,  default='1', help='GPU to use')
 parser.add_argument('--detail', type=int,  default=1,
                     help='print metrics for every samples?')
