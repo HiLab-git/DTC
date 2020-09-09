@@ -53,11 +53,3 @@ def test_calculate_metric():
 if __name__ == '__main__':
     metric = test_calculate_metric()  # 6000
     print(metric)
-
-# python test_LA.py --model 0214_re01 --gpu 0
-
-"""
-just seg: [ 0.84073031  0.730217   19.01703037  5.08272895]
-seg + LSF: [ 0.84228339  0.73333748 17.19975226  4.12422588]
-
-"""
