@@ -1,5 +1,6 @@
 # DTC
-Semi-supervised Medical Image Segmentation through Dual-task Consistency
+Code for work: Semi-supervised Medical Image Segmentation through Dual-task Consistency
+
 Our code is origin from [UA-MT](https://github.com/yulequan/UA-MT) and [SASSNet](https://github.com/kleinzcy/SASSnet)
 
 # Usage
