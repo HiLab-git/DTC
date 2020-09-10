@@ -1,7 +1,7 @@
 # DTC
 Code for work: Semi-supervised Medical Image Segmentation through Dual-task Consistency
 
-Our code is origin from [UA-MT](https://github.com/yulequan/UA-MT) and [SASSNet](https://github.com/kleinzcy/SASSnet)
+This code is origin from [UA-MT](https://github.com/yulequan/UA-MT) and [SASSNet](https://github.com/kleinzcy/SASSnet)
 
 # Usage
 
@@ -17,8 +17,6 @@ cd DTC
 cd code
 python train_la_dtc.py or python train_la_dtc_v2.py
 ```
-
-Params are the best setting in our experiment.
 
 4. Test the model
 ```
