@@ -1,0 +1,2 @@
+- Download heart MRI data [MICCAI 2018 Atrial Segmentation Challenge](http://atriaseg2018.cardiacatlas.org/data/). 
+- Pre-processing data like existing work [UA-MT](https://github.com/yulequan/UA-MT)
