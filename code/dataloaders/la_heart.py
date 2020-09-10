@@ -34,7 +34,6 @@ class LAHeart(Dataset):
 
     def __getitem__(self, idx):
         image_name = self.image_list[idx]
-        # h5f = h5py.File(self._base_dir + "/2018LA_Seg_Training Set/" + image_name + "/mri_norm2.h5", 'r')
         h5f = h5py.File(self._base_dir+"/"+image_name+"/mri_norm2.h5", 'r')
         image = h5f['image'][:]
         label = h5f['label'][:]

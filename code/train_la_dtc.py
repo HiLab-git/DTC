@@ -257,8 +257,7 @@ if __name__ == "__main__":
                 if avg_metric[:, 0].mean() > best_performance:
                     best_performance = avg_metric[:, 0].mean()
                     save_mode_path = os.path.join(snapshot_path,
-                                                  'model_best_iter_{}.pth'.format(
-                                                      iter_num))
+                                                  'best_model.pth')
                     torch.save(model.state_dict(), save_mode_path)
                     logging.info("save model to {}".format(save_mode_path))
                 writer.add_scalar('val/la_heart_dice',
