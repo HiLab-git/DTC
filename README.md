@@ -25,3 +25,5 @@ Params are the best setting in our experiment.
 python test_LA.py
 ```
 Our best model are saved in model dir.
+
+# More semi-supervised medical image segmentation methods (our reimplementation) will be release soon ......
