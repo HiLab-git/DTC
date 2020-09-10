@@ -1,7 +1,9 @@
 # DTC
 Code for work: Semi-supervised Medical Image Segmentation through Dual-task Consistency
 
-This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap)
+This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap), 
+
+We thank Dr. Lequan Yu, Dr. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
 
 # Usage
 
