@@ -3,7 +3,7 @@ Code for work: Semi-supervised Medical Image Segmentation through Dual-task Cons
 
 This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap), 
 
-We thank Dr. Lequan Yu, Dr. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
+We thank Dr. Lequan Yu, M.S. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base. (Apologizing to Shuailin Li since I made a mistake of his degree.)
 
 More details and comparison methods will be released if the paper is accepted. 
 # Usage
