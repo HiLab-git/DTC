@@ -47,5 +47,5 @@ If you find this repository is useful in your research, please consider to cite:
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
 * We thank Dr. Lequan Yu, M.S. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
-* More semi-supervised learning for medical image approaches have summarized in this repository [SSL4MIS](https://github.com/Luoxd1996/awesome-semi-supervised-learning-for-medical-image-segmentation).
+* More semi-supervised learning approaches for medical image segmentation have summarized in this repository [SSL4MIS](https://github.com/Luoxd1996/awesome-semi-supervised-learning-for-medical-image-segmentation).
 
