@@ -3,9 +3,9 @@ Code for this paper: Semi-supervised Medical Image Segmentation through Dual-tas
 ### Requirements
 Some important required packages include:
 * [Pytorch][torch_link] version >=0.4.1.
-* Visdom
+* TensorBoardX
 * Python == 3.6 
-* Some basic python packages such as Numpy.
+* Some basic python packages such as Numpy, Scikit-image, SimpleITK, Scipy ......
 
 Follow official guidance to install [Pytorch][torch_link].
 
