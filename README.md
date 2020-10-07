@@ -1,4 +1,4 @@
-## Semi-supervised Medical Image Segmentation through Dual-task Consistency
+## Dual-task Consistency
 Code for this paper: Semi-supervised Medical Image Segmentation through Dual-task Consistency ([DTC](https://arxiv.org/pdf/2009.04448.pdf))
 * More details and comparison methods will be released if the paper is accepted. 
 * The multi-classes **DTC** is under doing, and also will be released as we finished it.
