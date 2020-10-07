@@ -33,6 +33,15 @@ python train_la_dtc.py or python train_la_dtc_v2.py
 python test_LA.py
 ```
 Our best model are saved in model dir.
+
+## Citation
+If you find Active-Contour-Loss is useful in your research, please consider to cite:
+  @article{luo2020semi,
+    title={Semi-supervised Medical Image Segmentation through Dual-task Consistency},
+    author={Luo, Xiangde and Chen, Jieneng and Song, Tao and Chen, Yinan and Wang, Guotai and Zhang, Shaoting},
+    journal={arXiv preprint arXiv:2009.04448},
+    year={2020}
+    }
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap), 
 * We thank Dr. Lequan Yu, M.S. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
