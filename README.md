@@ -32,7 +32,7 @@ python train_la_dtc.py or python train_la_dtc_v2.py
 ```
 python test_LA.py
 ```
-Our best model are saved in model dir.
+Our best model is saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model).
 
 ## Citation
 If you find this repository is useful in your research, please consider to cite:
