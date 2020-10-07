@@ -1,5 +1,7 @@
 ## Semi-supervised Medical Image Segmentation through Dual-task Consistency
 Code for this paper: Semi-supervised Medical Image Segmentation through Dual-task Consistency ([DTC](https://arxiv.org/pdf/2009.04448.pdf))
+* More details and comparison methods will be released if the paper is accepted. 
+* The multi-classes **DTC** is under doing, and also will be released as we finished it.
 ### Requirements
 Some important required packages include:
 * [Pytorch][torch_link] version >=0.4.1.
@@ -34,4 +36,4 @@ Our best model are saved in model dir.
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap), 
 * We thank Dr. Lequan Yu, M.S. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
-* More details and comparison methods will be released if the paper is accepted. 
+
