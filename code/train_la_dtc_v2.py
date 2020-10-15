@@ -186,7 +186,7 @@ if __name__ == "__main__":
                 outputs_soft[:labeled_bs, 0, :, :, :], label_batch[:labeled_bs] == 1)
             dis_to_mask = torch.sigmoid(-1500*outputs_tanh)
 
-            consistency_loss = F.mse_loss(dis_to_mask, outputs_soft)
+            consistency_loss = torch.mean((dis_to_mask - outputs_soft) ** 2)
             supervised_loss = loss_seg_dice + args.beta * loss_sdf
 
             loss = supervised_loss + 0.1 * consistency_loss
