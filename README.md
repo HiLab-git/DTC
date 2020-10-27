@@ -32,7 +32,7 @@ python train_la_dtc.py or python train_la_dtc_v2.py
 ```
 python test_LA.py
 ```
-Our best model is saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model). Our implemented CCT will be updated as soon as possible, and the other comparison method can be found in [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
+Our best model is saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model). Our implemented [3D CCT](https://arxiv.org/abs/2003.09005) will be updated as soon as possible, and the other comparison method can be found in [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
 
 ## Citation
 If you find this repository is useful in your research, please consider to cite:
