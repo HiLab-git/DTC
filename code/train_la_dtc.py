@@ -248,24 +248,7 @@ if __name__ == "__main__":
                 grid_image = make_grid(image, 5, normalize=False)
                 writer.add_image('train/Groundtruth_DistMap',
                                  grid_image, iter_num)
-
-            if iter_num > 0 and iter_num % 200 == 0:
-                model.eval()
-                avg_metric = test_all_case(
-                    model, args.root_path, test_list="test.list", num_classes=num_classes, patch_size=patch_size, stride_xy=18, stride_z=4)
-                print(avg_metric)
-                if avg_metric[:, 0].mean() > best_performance:
-                    best_performance = avg_metric[:, 0].mean()
-                    save_mode_path = os.path.join(snapshot_path,
-                                                  'best_model.pth')
-                    torch.save(model.state_dict(), save_mode_path)
-                    logging.info("save model to {}".format(save_mode_path))
-                writer.add_scalar('val/la_heart_dice',
-                                  avg_metric[0, 0], iter_num)
-                writer.add_scalar('val/la_heart_hd95',
-                                  avg_metric[0, 1], iter_num)
-                model.train()
-
+                
             # change lr
             if iter_num % 2500 == 0:
                 lr_ = base_lr * 0.1 ** (iter_num // 2500)
