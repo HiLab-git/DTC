@@ -26,7 +26,7 @@ from dataloaders import utils
 from utils import ramps, losses, metrics
 from dataloaders.la_heart import LAHeart, RandomCrop, CenterCrop, RandomRotFlip, ToTensor, TwoStreamBatchSampler
 from utils.util import compute_sdf
-from val import test_all_case
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
                     default='../data/2018LA_Seg_Training Set/', help='Name of Experiment')
