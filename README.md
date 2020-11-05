@@ -45,6 +45,7 @@ If you find this repository is useful in your research, please consider to cite:
 	}
 ## Results on the Left Atrium dataset.
 * 16 labeled scans and 64 unlabeled scans
+
 |Methods|DICE (%) | Jaccard (%) | HD95 | ASD|
 |---|---|---|---|---|
 |Orginal [DTC](https://arxiv.org/pdf/2009.04448.pdf)|89.42|80.98|2.10|7.32|
