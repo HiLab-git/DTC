@@ -54,7 +54,7 @@ If you find this repository is useful in your research, please consider to cite:
 [DUWM](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_53)|89.65| 81.35| 7.04| 2.03|MICCAI2020|
 |Orginal [DTC](https://arxiv.org/pdf/2009.04448.pdf)|89.42|80.98|2.10|7.32|Ours|
 |Updated DTC (w/o NMS)|89.47|81.09|2.65|9.56|Ours|
-|Updated DTC (w NMS)|89.85|81.72|1.81|7.03|Ours|
+|Updated DTC (w NMS)|**89.85**|**81.72**|**1.81**|**7.03**|Ours|
 * More reported results can be found from MICCAI2020 papers: [SASSNet](https://arxiv.org/pdf/2007.10732.pdf); [LG-ER-MT](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_53); [DUWM]()
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
