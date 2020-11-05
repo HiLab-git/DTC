@@ -43,7 +43,13 @@ If you find this repository is useful in your research, please consider to cite:
 	  journal={arXiv preprint arXiv:2009.04448},
 	  year={2020}
 	}
-
+## Results on the Left Atrium dataset.
+* 16 labeled scans and 64 unlabeled scans
+|---|---|---|---|---|
+|Methods|DICE (%) | Jaccard (%) | HD95 | ASD|
+|Orginal [DTC](https://arxiv.org/pdf/2009.04448.pdf)|89.42|80.98|2.10|7.32|
+|Updated DTC (w/o NMS)|89.47|81.09|2.65|9.56|
+|Updated DTC (w NMS)|89.85|81.72|1.81|7.03|
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
 * We thank Dr. Lequan Yu, M.S. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
