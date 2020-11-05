@@ -12,7 +12,7 @@ parser.add_argument('--model', type=str,
 parser.add_argument('--gpu', type=str,  default='1', help='GPU to use')
 parser.add_argument('--detail', type=int,  default=1,
                     help='print metrics for every samples?')
-parser.add_argument('--nms', type=int, default=0,
+parser.add_argument('--nms', type=int, default=1,
                     help='apply NMS post-procssing?')
 
 
