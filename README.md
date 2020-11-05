@@ -34,15 +34,6 @@ python test_LA.py
 ```
 Our best model is saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model). Our implemented 3D version of [CCT](https://arxiv.org/abs/2003.09005) (with main decoder and three auxiliary decoders) will be updated as soon as possible, and the other comparison method can be found in [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
 
-## Citation
-If you find this repository is useful in your research, please consider to cite:
-
-	@article{luo2020semi,
-	  title={Semi-supervised Medical Image Segmentation through Dual-task Consistency},
-	  author={Luo, Xiangde and Chen, Jieneng and Song, Tao and Chen, Yinan and Wang, Guotai and Zhang, Shaoting},
-	  journal={arXiv preprint arXiv:2009.04448},
-	  year={2020}
-	}
 ## Results on the Left Atrium dataset.
 * The training set consists of 16 labeled scans and 64 unlabeled scans and the testing set includes 20 scans.
 
@@ -55,6 +46,16 @@ If you find this repository is useful in your research, please consider to cite:
 |Orginal [DTC](https://arxiv.org/pdf/2009.04448.pdf)|89.42|80.98|2.10|7.32|Ours|
 |Updated DTC (w/o NMS)|89.47|81.09|2.65|9.56|Ours|
 |Updated DTC (w NMS)|**89.85**|**81.72**|**1.81**|**7.03**|Ours|
+
+## Citation
+If you find this repository is useful in your research, please consider to cite:
+
+	@article{luo2020semi,
+	  title={Semi-supervised Medical Image Segmentation through Dual-task Consistency},
+	  author={Luo, Xiangde and Chen, Jieneng and Song, Tao and Chen, Yinan and Wang, Guotai and Zhang, Shaoting},
+	  journal={arXiv preprint arXiv:2009.04448},
+	  year={2020}
+	}
 
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
