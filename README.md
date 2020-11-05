@@ -46,11 +46,15 @@ If you find this repository is useful in your research, please consider to cite:
 ## Results on the Left Atrium dataset.
 * The training set consists of 16 labeled scans and 64 unlabeled scans and the testing set includes 20 scans.
 
-|Methods|DICE (%) | Jaccard (%) | HD95 | ASD|
+|Methods|DICE (%) | Jaccard (%) | HD95 (voxel) | ASD (voxel)|Reference|
 |---|---|---|---|---|
 |Orginal [DTC](https://arxiv.org/pdf/2009.04448.pdf)|89.42|80.98|2.10|7.32|
+|[SASSNet](https://arxiv.org/pdf/2007.10732.pdf)|89.54|81.24|2.20|8.24|
+|[LG-ER-MT](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_55)|89.62|81.31| 2.06| 7.16|
+[DUWM](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_53)|89.65| 81.35| 7.04| 2.03|
 |Updated DTC (w/o NMS)|89.47|81.09|2.65|9.56|
 |Updated DTC (w NMS)|89.85|81.72|1.81|7.03|
+* More reported results can be found from MICCAI2020 papers: [SASSNet](https://arxiv.org/pdf/2007.10732.pdf); [LG-ER-MT](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_53); [DUWM]()
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
 * We thank Dr. Lequan Yu, M.S. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
