@@ -25,7 +25,7 @@ cd DTC
 3. Train the model
 ```
 cd code
-python train_la_dtc.py or python train_la_dtc_v2.py
+python train_la_dtc.py
 ```
 
 4. Test the model
@@ -41,7 +41,7 @@ Our best model is saved in the model dir [DTC_model](https://github.com/Luoxd199
 |---|---|---|---|---|---|---|
 |[UAMT](https://arxiv.org/pdf/1907.07034.pdf)|88.88|80.21|2.26|7.32|MICCAI2019|2019-10|
 |[SASSNet](https://arxiv.org/pdf/2007.10732.pdf)|89.54|81.24|2.20|8.24|MICCAI2020|2020-07|
-|Orginal [DTC](https://arxiv.org/pdf/2009.04448.pdf)|89.42|80.98|2.10|7.32|Arxiv|2020-09|
+|Original [DTC](https://arxiv.org/pdf/2009.04448.pdf)|89.42|80.98|2.10|7.32|Arxiv|2020-09|
 |[LG-ER-MT](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_55)|89.62|81.31| 2.06| 7.16|MICCAI2020|2020-10|
 [DUWM](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_53)|89.65| 81.35| 2.03| 7.04|MICCAI2020|2020-10|
 |Updated [DTC](https://arxiv.org/pdf/2009.04448.pdf)|**89.85**|**81.72**|**1.81**|**7.03**|This repo|2020-10|
