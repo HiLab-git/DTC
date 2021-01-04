@@ -11,3 +11,4 @@
 <!--|Updated [DTC](https://arxiv.org/pdf/2009.04448.pdf)|**89.85**|**81.72**|**1.81**|**7.03**|This repo|2020-10|-->
 <!--|Updated DTC (w/o NMS)|89.47|81.09|2.65|9.56|Ours|2020-10|-->
 <!--|[SASSNet](https://arxiv.org/pdf/2007.10732.pdf)(w/o NMS)|89.27|80.82|3.13|8.83|MICCAI2020|2020-07|-->
+* Note that, the results are very sensitive to the GPU version and PyTorch version, maybe it is good to do experimental just in a fixed GPU and PyTorch.
