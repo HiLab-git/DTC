@@ -1,12 +1,13 @@
 ## Dual-task Consistency
-Code for this paper: Semi-supervised Medical Image Segmentation through Dual-task Consistency ([DTC](https://arxiv.org/pdf/2009.04448.pdf))
+Code for this paper: Semi-supervised Medical Image Segmentation through Dual-task Consistency ([AAAI2021](https://arxiv.org/pdf/2009.04448.pdf))
 	
-	@article{luo2020semi,
-	  title={Semi-supervised Medical Image Segmentation through Dual-task Consistency},
+	@article{luo2021semi,
+	  title={Semi-Supervised Medical Image Segmentation through Dual-task Consistency},
 	  author={Luo, Xiangde and Chen, Jieneng and Song, Tao and Chen, Yinan and Wang, Guotai and Zhang, Shaoting},
-	  journal={arXiv preprint arXiv:2009.04448},
-	  year={2020}
+	  journal={AAAI Conference on Artificial Intelligence},
+	  year={2021}
 	}
+	
 ## Requirements
 Some important required packages include:
 * [Pytorch][torch_link] version >=0.4.1.
@@ -37,10 +38,10 @@ python train_la_dtc.py
 ```
 python test_LA.py
 ```
-Our best model is saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model). The other comparison method can be found in [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
+Our pre-trained models are saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model). The other comparison method can be found in [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
 
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
 * We thank Dr. Lequan Yu, M.S. Shuailin Li and Dr. Jun Ma for their elegant and efficient code base.
-* More semi-supervised learning approaches for medical image segmentation have summarized in this repository [SSL4MIS](https://github.com/Luoxd1996/awesome-semi-supervised-learning-for-medical-image-segmentation).
+* More semi-supervised learning approaches for medical image segmentation have been summarized in [SSL4MIS](https://github.com/Luoxd1996/awesome-semi-supervised-learning-for-medical-image-segmentation).
 
