@@ -42,6 +42,7 @@ Our pre-trained models are saved in the model dir [DTC_model](https://github.com
 
 ## Results on the Left Atrium dataset (SOTA).
 * The training set consists of 16 labeled scans and 64 unlabeled scans and the testing set includes 20 scans.
+
 |Methods|DICE (%) | Jaccard (%) | ASD (voxel) | 95HD (voxel)|Reference|Released Date|
 |---|---|---|---|---|---|---|
 |[UAMT](https://arxiv.org/pdf/1907.07034.pdf)|88.88|80.21|2.26|7.32|MICCAI2019|2019-10|
@@ -52,6 +53,7 @@ Our pre-trained models are saved in the model dir [DTC_model](https://github.com
 |[MC-Net](https://arxiv.org/pdf/2103.02911.pdf)|90.34| 82.48| 1.77| 6.00|Arxiv|2021-03|
 
 * The training set consists of 8 labeled scans and 72 unlabeled scans and the testing set includes 20 scans.
+
 |Methods|DICE (%) | Jaccard (%) | ASD (voxel) | 95HD (voxel)|Reference|Released Date|
 |---|---|---|---|---|---|---|
 |[UAMT](https://arxiv.org/pdf/1907.07034.pdf)|84.25|73.48|3.36|13.84|MICCAI2019|2019-10|
