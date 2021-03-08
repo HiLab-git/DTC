@@ -38,7 +38,7 @@ python train_la_dtc.py
 ```
 python test_LA.py
 ```
-Our pre-trained models are saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model). The other comparison method can be found in [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
+Our pre-trained models are saved in the model dir [DTC_model](https://github.com/Luoxd1996/DTC/tree/master/model) (both 8 labeled images and 16 labeled images), and the pretrained SASSNet and UAMT model can be download from [SASSNet_model](https://github.com/kleinzcy/SASSnet/tree/master/model) and [UA-MT_model](https://github.com/yulequan/UA-MT/tree/master/model). The other comparison method can be found in [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
 
 ## Results on the Left Atrium dataset (SOTA).
 * The training set consists of 16 labeled scans and 64 unlabeled scans and the testing set includes 20 scans.
@@ -62,7 +62,7 @@ Our pre-trained models are saved in the model dir [DTC_model](https://github.com
 |[LG-ER-MT](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_55)|85.54|75.12|3.77|13.29|MICCAI2020|2020-10|
 |[DUWM](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_53)|85.91|75.75|3.31|12.67|MICCAI2020|2020-10|
 |[MC-Net](https://arxiv.org/pdf/2103.02911.pdf)|87.71|78.31|2.18| 9.36|Arxiv|2021-03|
-* Note that, * denotes the results from [MC-Net](https://arxiv.org/pdf/2103.02911.pdf).
+* Note that, * denotes the results from [MC-Net](https://arxiv.org/pdf/2103.02911.pdf) and the model has been openly available, thanks for [Yicheng](https://ycwu1997.github.io/github.io/).
 
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
