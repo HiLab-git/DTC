@@ -3,7 +3,7 @@ Code for this paper: Semi-supervised Medical Image Segmentation through Dual-tas
 	
 	@article{luo2021semi,
 	  title={Semi-Supervised Medical Image Segmentation through Dual-task Consistency},
-	  author={Luo, Xiangde and Chen, Jieneng and Song, Tao and Chen, Yinan and Wang, Guotai and Zhang, Shaoting},
+	  author={Luo, Xiangde and Chen, Jieneng and Song, Tao  and Wang, Guotai},
 	  journal={AAAI Conference on Artificial Intelligence},
 	  year={2021}
 	}
