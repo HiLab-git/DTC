@@ -1,10 +1,13 @@
 ## Dual-task Consistency
 Code for this paper: Semi-supervised Medical Image Segmentation through Dual-task Consistency ([AAAI2021](https://arxiv.org/pdf/2009.04448.pdf))
 	
-	@article{luo2021semi,
-	  title={Semi-Supervised Medical Image Segmentation through Dual-task Consistency},
-	  author={Luo, Xiangde and Chen, Jieneng and Song, Tao  and Wang, Guotai},
-	  journal={AAAI Conference on Artificial Intelligence},
+	@inproceedings{luo2021semi,
+	  title={Semi-supervised Medical Image Segmentation through Dual-task Consistency},
+	  author={Luo, Xiangde and Chen, Jieneng and Song, Tao and Wang, Guotai},
+	  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+	  volume={35},
+	  number={10},
+	  pages={8801--8809},
 	  year={2021}
 	}
 	
@@ -58,11 +61,11 @@ Our pre-trained models are saved in the model dir [DTC_model](https://github.com
 |---|---|---|---|---|---|---|
 |[UAMT](https://arxiv.org/pdf/1907.07034.pdf)|84.25|73.48|3.36|13.84|MICCAI2019|2019-10|
 |[SASSNet](https://arxiv.org/pdf/2007.10732.pdf)|87.32|77.72|2.55|9.62|MICCAI2020|2020-07|
-| [DTC*](https://arxiv.org/pdf/2009.04448.pdf)|86.57|76.55|3.74|14.47|AAAI2021|2020-09|
+| [DTC*](https://arxiv.org/pdf/2009.04448.pdf)|87.51|78.17|2.36|8.23|AAAI2021|2020-09|
 |[LG-ER-MT](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_55)|85.54|75.12|3.77|13.29|MICCAI2020|2020-10|
 |[DUWM](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_53)|85.91|75.75|3.31|12.67|MICCAI2020|2020-10|
 |[MC-Net](https://arxiv.org/pdf/2103.02911.pdf)|87.71|78.31|2.18| 9.36|Arxiv|2021-03|
-* Note that, * denotes the results from [MC-Net](https://arxiv.org/pdf/2103.02911.pdf) and the model has been openly available, thanks for [Yicheng](https://ycwu1997.github.io/eli/).
+* Note that, * denotes the results from [MC-Net](https://arxiv.org/pdf/2103.02911.pdf) and the model has been openly available (provided by Dr. YiCheng), thanks for [Dr. Yicheng](https://ycwu1997.github.io/eli/).
 
 ## Acknowledgement
 * This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [SegWithDistMap](https://github.com/JunMa11/SegWithDistMap). 
