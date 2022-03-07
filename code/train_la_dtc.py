@@ -20,8 +20,6 @@ from torch.utils.data import DataLoader
 from torchvision.utils import make_grid
 
 from networks.vnet_sdf import VNet
-from networks.discriminator import FC3DDiscriminator
-
 from dataloaders import utils
 from utils import ramps, losses, metrics
 from dataloaders.la_heart import LAHeart, RandomCrop, CenterCrop, RandomRotFlip, ToTensor, TwoStreamBatchSampler
